@@ -195,9 +195,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-md border-t border-zinc-200">
-        <div className="max-w-[800px] mx-auto px-4 py-6">
-          <form onSubmit={handleSubmit} className="flex gap-2">
+      <div className="fixed bottom-4 left-0 right-0">
+        <div className="max-w-[800px] rounded-xl shadow-md mx-auto px-4 py-6 bg-white">
+          <form onSubmit={handleSubmit} className="flex gap-2 border-none">
             <Input
               value={input}
               onChange={(e) => setInput(e.target.value)}
